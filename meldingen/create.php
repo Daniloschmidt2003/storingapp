@@ -21,15 +21,31 @@
             </div>
             <div class="form-group">
                 <label for="type">Type</label>
-                <!-- hier komt een dropdown -->
+                    <select name="group" id="group">
+                        <option value="">kies een optie</option>
+                        <option value="draaimolen">draaimolen</option>
+                        <option value="waterpret">waterpret</option>
+                        <option value="skydiven">skydiven</option>
+                        <option value="achtbaanmooi">achtbaanmooi</option>
+                    </select>
             </div>
             <div class="form-group">
                 <label for="capaciteit">Capaciteit p/uur:</label>
                 <input type="number" min="0" name="capaciteit" id="capaciteit" class="form-input">
             </div>
+            <div class="formgroup">
+                <label for="prioriteit">prioriteit</label>
+                <input type="checkbox" name="prioriteit" id = "prioriteit">
+            </div>
             <div class="form-group">
                 <label for="melder">Naam melder:</label>
                 <input type="text" name="melder" id="melder" class="form-input">
+            </div>
+            <div class="form-group">
+                <label for="newsletter">NieuwsBrief:</label>
+                <Input type="checkbox" name="newsletter" id="newsletter"></Input>
+                <label for="newsletter">ik wil graag de nieuwsbrief ontvangen</label>
+
             </div>
             
             <input type="submit" value="Verstuur melding">
